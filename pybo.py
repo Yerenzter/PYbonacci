@@ -9,6 +9,3 @@ def fibo(n):
 def fibonacci(n):
     for yr in range(n+1):
         print(str(yr) + ". " + str(int(fibo(yr))))
-        
-# CALL A FIBONACCI FUNCTION
-fibonacci(100)
